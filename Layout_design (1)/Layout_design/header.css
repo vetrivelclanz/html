@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+
+.Header {
+
+    background: burlywood;
+
+}
+
+.leftside {
+    width: 10%;
+}
+
+.leftside a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.rightside {
+
+    float: right;
+    text-align: right;
+}
+
+.rightside a {
+    padding: 0px 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.centerside {
+    width: 70%;
+    text-align: center
+}
+
+.centerside a {
+    padding: 0px 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.headerpart {
+    padding: 10px;
+    display: flex;
+    width: 90%;
+
+    margin: 0 auto;
+}
+
+.loginbtn {
+    background: purple;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    color: wheat;
+    font-size: 15px;
+}
+
+.loginbtn:hover {
+    background: rgb(18, 2, 18);
+}
+
+.selectbox {
+    font-size: 15px;
+    border: 0px;
+    background: transparent;
+    color: white;
+}
+
+.selectbox:focus-visible {
+    outline: none;
+}
+
+.selectbox option {
+    background-color: gray;
+    padding: 5px;
+}

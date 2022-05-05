@@ -1,0 +1,68 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header h1 {
+    margin: 0;
+    color: #333;
+    text-align: center;
+    padding: 0.8rem;
+}
+
+.header {
+    border: 1px dashed rgb(225, 148, 148);
+    min-height: 60px;
+    padding-bottom: 10px;
+}
+
+.containerpart1 {
+    border: 1px dashed rgb(225, 148, 148);
+    height: 300px;
+    text-align: center
+}
+
+.containerpart2 {
+    border: 1px dashed rgb(225, 148, 148);
+    height: 300px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+
+.containerpart3 {
+    border: 1px dashed rgb(225, 148, 148);
+    height: 300px;
+    text-align: center;
+    display: flex;
+}
+
+.footer {
+    height: 70px;
+    border: 1px dashed rgb(225, 148, 148);
+    text-align: center
+}
+
+.box1 {
+    background-color: aquamarine;
+    width: 33.3%;
+    border: 1px dashed #7ba697;
+}
+
+.box2 {
+    background-color: aquamarine;
+    width: 25%;
+    border: 1px dashed #7ba697;
+}
+
+.nav {
+    background-color: aquamarine;
+    border: 1px dashed #7ba697;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}

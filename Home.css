@@ -1,0 +1,57 @@
+.dot{
+    text-align: center;
+    
+   background-image: url(img.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ 
+}
+.dot h1 {
+    color: rgb(255, 0, 212);
+}
+.dot p{
+    color: aqua;
+    padding: 2%;
+}
+.tm{
+    margin: 2%;
+    width: 400px;
+    height: 200px;
+    padding: 2%;
+}
+.dot ul{
+    color: cornsilk;
+    list-style: none;
+}
+.table1{
+  border-color: aqua;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 50%;
+  text-shadow:1px;
+
+}
+.table1 th{
+  color: blue;
+}
+.table1 td{
+  color: rgb(124, 8, 80);
+}
+
+a:link {
+    color: green;
+    text-decoration: none;
+    margin: 2pc;
+  }
+  a:visited {
+    color: pink;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  a:active {
+    color: rgb(0, 183, 255);
+    text-decoration: underline;
+  }
